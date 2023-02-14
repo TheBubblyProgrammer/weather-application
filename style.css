@@ -1,0 +1,68 @@
+
+
+
+.container{
+max-width: 70%;
+
+}
+.card {
+
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid darkblue;
+    margin-top: 45px;
+}
+.row{
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: -30px;
+
+}
+.form-info{
+    padding-top: 10px;
+   text-align: center;
+
+}
+.searchbtn{
+    border: 1.5px solid blueviolet;
+}
+.search-city{
+    border: 1.5px solid blueviolet;
+}
+#city{
+    padding-top: 10px;
+    text-align: center;
+ }
+ #time{
+    text-align: center;
+    line-height: 0.8;
+ }
+.describe{
+    list-style: none;
+    padding-top: 10%;
+    }
+.describe ::first-letter{
+    text-transform: capitalize;
+}
+ 
+   .wind-humidity{
+    list-style: none;
+    font-size: 15px;
+    
+
+   }
+
+.temp-unit{
+  text-align: center;
+ padding-top: 20px;
+ line-height: 0.7;
+}
+
+
+
+
+
+
