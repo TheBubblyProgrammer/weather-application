@@ -10,9 +10,11 @@ h4{
     text-align: center;
     font-size: 35px;
     color: blueviolet;
-    background-color: antiquewhite;
-    font-family: "Roboto Mono", monospace;
+  padding-top: 15px;
+  font-family: "Roboto Mono", monospace;
     font-weight: bolder;
+   color:antiquewhite;
+   text-shadow:10px 8px 10px darkblue;
 }
 
 .container{
@@ -24,9 +26,10 @@ max-width: 70%;
     max-width: 500px;
     display: block;
     margin: 0 auto;
-    border: 3px solid darkblue;
-    margin-top: 45px;
+    border: 1px solid darkblue;
+    margin-top: 55px;
     background-color: transparent;
+    border-radius: 15px;
 }
 .row{
     max-width: 600px;
@@ -93,7 +96,7 @@ max-width: 70%;
     list-style: none;
     padding-top: 10%;
 font-family: "Handlee", cursive;
-font-size: 20px;
+font-size: 30px;
 
     }
 .describe ::first-letter{
@@ -112,7 +115,8 @@ font-size: 20px;
   text-align: center;
  padding-top: 20px;
  line-height: 0.7;
- font-size: 25px;
+ font-size: 35px;
+
 
 }
 .temp-unit li{
@@ -121,6 +125,10 @@ font-size: 20px;
     font-weight: bolder;
 }
 
+.units{
+    font-size: 15px;
+    
+}
 
 
 
