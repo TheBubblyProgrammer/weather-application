@@ -36,10 +36,9 @@
 <h1 id="city"></h1>
 <h2 id="time"></h2>
 <div class="temp-unit">
-      <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="clear-sky" id="icon"> <span class="temperature" id="temperature"></span><span class="units">°C</span>
-<li class="realfeal"> Real Feel:<spa id="realFeels"></spa>
-
-</li>
+      <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="clear-sky" id="icon"> <span id="temperature"></span> <span class="units"><a href="#" id="celsius-link" class="active">°C</a> |
+        <a href="#" id="fahrenheit-link">°F</a></span>
+<li class="realfeal"> Real Feel:<span id="realFeels"></span></li>
 
 </div>
 <ul class="describe">
@@ -54,7 +53,8 @@
     </li>
     <li> precipitation:<span id="precipitation"> </span>
     </li>
-    <li > Sunset:<span id="Sunset"></span>
+    <li > Sunset:
+<span id="Sunset"></span>
     </li>
     
    
