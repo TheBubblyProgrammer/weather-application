@@ -26,15 +26,14 @@ function showWeatherConditions(response) {
   let descriptionElement = document.querySelector(`#description`);
   let humidityElement = document.querySelector(`#humidity`);
   let windElement = document.querySelector(`#wind` );
- let realFeelElement = document.querySelector("#realFeels")
-  let sunsetElement = document.querySelector("#Sunset");
+ let realFeelElement = document.querySelector("#realFeels");
+ let sunsetElement = document.querySelector("#sunset");
  let precipitationElement = document.querySelector(`#precipitation`);
   let iconElement = document.querySelector(`#icon`);
  
 
 
 
-  console.log(response.data.sys.sunset)
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
   cityElement.innerHTML = response.data.name;
   descriptionElement.innerHTML = response.data.weather[0].description;
@@ -49,8 +48,8 @@ iconElement.setAttribute(`alt`, response.data.weather[0].description);
 
   celsiusTemperature = response.data.main.temp;
 
-
 }
+
 
 function Unix(unixTime) {
   let sunsetDate = new Date(unixTime * 1000);
