@@ -1,8 +1,8 @@
 
 img{
 margin-left: 35px;
-    height: 20%;
-    width: 20%;
+    height: 64px;
+    width: 64px;
     
 }
 
@@ -111,29 +111,47 @@ font-size: 30px;
     list-style: none;
     font-size: 15px;
     font-family: "Roboto Mono", monospace;
-    
-
-   }
+    }
 
 .temp-unit{
   text-align: center;
  padding-top: 20px;
  line-height: 0.7;
  font-size: 35px;
-
-
 }
+
 .temp-unit li{
     list-style: none;
     font-size: 15px;
     font-weight: bolder;
 }
-
 .units{
     font-size: 15px;
-    
+}
+
+.row{
+    width: 460px;
+    display: inline-flex;
+   
+}
+
+.row h5{
+    text-align: center;
+    font-size:25px ;
+    font-weight: bolder;
 }
 
 
+.weather-forecast-date {
+    font-size: 20px;
+    
+}
 
+.weather-forecast-temperature-min {
+    opacity: 0.8;
+    font-size: 20px;
+}
 
+.weather-forecast-temperatures {
+    font-size: 20px;
+}
