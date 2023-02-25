@@ -51,6 +51,7 @@ max-width: 70%;
     cursor: pointer;
     color: antiquewhite;
     background-color:blue;
+    transition:5s;
 }
 
 .search-city{
