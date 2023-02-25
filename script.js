@@ -138,8 +138,8 @@ function searchCity(city) {
 
 function submitForm(event) {
   event.preventDefault();
-  let city = document.querySelector(`#search-city`).value;
-  searchCity(city);
+  let city = document.querySelector(`#search-city`);
+  searchCity(city.value);
 }
 
 
