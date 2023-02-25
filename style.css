@@ -47,12 +47,13 @@ max-width: 70%;
     font-size: 20px;
 
 }
-.searchbtn:hover{
+.searchbtn:hover {
     cursor: pointer;
     color: antiquewhite;
-    background-color:blue;
-    transition:5s;
+    background-color: blue;
+    transition: 0.5s;
 }
+
 
 .search-city{
     border: 2px solid blueviolet;
